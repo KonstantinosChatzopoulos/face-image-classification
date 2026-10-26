@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDEs
+.idea/
+.vscode/
+
+# Dataset (not redistributed; see README)
+train-images/
+TEST_images/
+Test-IDs.csv
+*.zip
+
+# Generated predictions and model weights
+submission*.csv
+*.pth
