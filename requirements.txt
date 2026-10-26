@@ -1,0 +1,11 @@
+# Libraries used by the notebooks. Versions are not pinned: the project
+# was run in an Anaconda environment (Python 3.12) whose versions were
+# not recorded.
+numpy
+pandas
+matplotlib
+scikit-learn
+opencv-python
+torch
+torchvision   # notebooks/07_clustering_efficientnet_features.ipynb
+jupyter
