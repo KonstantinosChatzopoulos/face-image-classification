@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="412" viewBox="0 0 760 412" role="img" aria-labelledby="title desc" font-family='system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif'>
+<title id="title">Validation F1 by model</title>
+<desc id="desc">Best validation F1 of each model on the same 1,276-image validation split. CNN (4 conv + 2 dense): 0.933; SVM, RBF kernel: 0.889; AdaBoost (decision trees): 0.877; MLP (4 hidden layers): 0.876; Random forest: 0.860; Logistic regression: 0.858; Bagging (linear SVM): 0.848; SVM, linear kernel: 0.837; kNN (k = 3, cosine): 0.773.</desc>
+<rect width="760" height="412" rx="8" fill="#1a1a19"/>
+<text x="24" y="36" font-size="17" font-weight="600" fill="#f0efec">Validation F1 by model</text>
+<text x="24" y="58" font-size="13" fill="#c3c2b7">Best setting of each model, same 1,276-image validation split. Higher is better.</text>
+<rect x="24" y="74" width="12" height="12" rx="3" fill="#3987e5"/>
+<text x="42" y="84.5" font-size="13" fill="#c3c2b7">Flattened 64×64 pixels</text>
+<rect x="211.6" y="74" width="12" height="12" rx="3" fill="#d95926"/>
+<text x="229.6" y="84.5" font-size="13" fill="#c3c2b7">Images (CNN)</text>
+<line x1="248" y1="100" x2="248" y2="376" stroke="#383835" stroke-width="1"/>
+<text x="248" y="394" font-size="12" text-anchor="middle" fill="#898781" style="font-variant-numeric: tabular-nums">0</text>
+<line x1="353.0" y1="100" x2="353.0" y2="376" stroke="#2c2c2a" stroke-width="1"/>
+<text x="353.0" y="394" font-size="12" text-anchor="middle" fill="#898781" style="font-variant-numeric: tabular-nums">0.25</text>
+<line x1="458.0" y1="100" x2="458.0" y2="376" stroke="#2c2c2a" stroke-width="1"/>
+<text x="458.0" y="394" font-size="12" text-anchor="middle" fill="#898781" style="font-variant-numeric: tabular-nums">0.5</text>
+<line x1="563.0" y1="100" x2="563.0" y2="376" stroke="#2c2c2a" stroke-width="1"/>
+<text x="563.0" y="394" font-size="12" text-anchor="middle" fill="#898781" style="font-variant-numeric: tabular-nums">0.75</text>
+<line x1="668.0" y1="100" x2="668.0" y2="376" stroke="#2c2c2a" stroke-width="1"/>
+<text x="668.0" y="394" font-size="12" text-anchor="middle" fill="#898781" style="font-variant-numeric: tabular-nums">1</text>
+<text x="236" y="122.5" font-size="13" text-anchor="end" fill="#f0efec" font-weight="600">CNN (4 conv + 2 dense)</text>
+<path d="M248,108 H636.0 A4,4 0 0 1 640.0,112 V124 A4,4 0 0 1 636.0,128 H248 Z" fill="#d95926"/>
+<text x="646.0" y="122.5" font-size="13" fill="#c3c2b7" font-weight="600" style="font-variant-numeric: tabular-nums">0.933</text>
+<text x="236" y="152.5" font-size="13" text-anchor="end" fill="#f0efec">SVM, RBF kernel</text>
+<path d="M248,138 H617.3 A4,4 0 0 1 621.3,142 V154 A4,4 0 0 1 617.3,158 H248 Z" fill="#3987e5"/>
+<text x="627.3" y="152.5" font-size="13" fill="#c3c2b7" style="font-variant-numeric: tabular-nums">0.889</text>
+<text x="236" y="182.5" font-size="13" text-anchor="end" fill="#f0efec">AdaBoost (decision trees)</text>
+<path d="M248,168 H612.4 A4,4 0 0 1 616.4,172 V184 A4,4 0 0 1 612.4,188 H248 Z" fill="#3987e5"/>
+<text x="622.4" y="182.5" font-size="13" fill="#c3c2b7" style="font-variant-numeric: tabular-nums">0.877</text>
+<text x="236" y="212.5" font-size="13" text-anchor="end" fill="#f0efec">MLP (4 hidden layers)</text>
+<path d="M248,198 H612.0 A4,4 0 0 1 616.0,202 V214 A4,4 0 0 1 612.0,218 H248 Z" fill="#3987e5"/>
+<text x="622.0" y="212.5" font-size="13" fill="#c3c2b7" style="font-variant-numeric: tabular-nums">0.876</text>
+<text x="236" y="242.5" font-size="13" text-anchor="end" fill="#f0efec">Random forest</text>
+<path d="M248,228 H605.2 A4,4 0 0 1 609.2,232 V244 A4,4 0 0 1 605.2,248 H248 Z" fill="#3987e5"/>
+<text x="615.2" y="242.5" font-size="13" fill="#c3c2b7" style="font-variant-numeric: tabular-nums">0.860</text>
+<text x="236" y="272.5" font-size="13" text-anchor="end" fill="#f0efec">Logistic regression</text>
+<path d="M248,258 H604.4 A4,4 0 0 1 608.4,262 V274 A4,4 0 0 1 604.4,278 H248 Z" fill="#3987e5"/>
+<text x="614.4" y="272.5" font-size="13" fill="#c3c2b7" style="font-variant-numeric: tabular-nums">0.858</text>
+<text x="236" y="302.5" font-size="13" text-anchor="end" fill="#f0efec">Bagging (linear SVM)</text>
+<path d="M248,288 H600.1 A4,4 0 0 1 604.1,292 V304 A4,4 0 0 1 600.1,308 H248 Z" fill="#3987e5"/>
+<text x="610.1" y="302.5" font-size="13" fill="#c3c2b7" style="font-variant-numeric: tabular-nums">0.848</text>
+<text x="236" y="332.5" font-size="13" text-anchor="end" fill="#f0efec">SVM, linear kernel</text>
+<path d="M248,318 H595.5 A4,4 0 0 1 599.5,322 V334 A4,4 0 0 1 595.5,338 H248 Z" fill="#3987e5"/>
+<text x="605.5" y="332.5" font-size="13" fill="#c3c2b7" style="font-variant-numeric: tabular-nums">0.837</text>
+<text x="236" y="362.5" font-size="13" text-anchor="end" fill="#f0efec">kNN (k = 3, cosine)</text>
+<path d="M248,348 H568.5 A4,4 0 0 1 572.5,352 V364 A4,4 0 0 1 568.5,368 H248 Z" fill="#3987e5"/>
+<text x="578.5" y="362.5" font-size="13" fill="#c3c2b7" style="font-variant-numeric: tabular-nums">0.773</text>
+</svg>
